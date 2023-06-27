@@ -16,7 +16,7 @@ jobs:
           node-version: 16
       - run: npm ci
 
-      - run: npm run build-only:gh-pages
+      - run: npm run build:gh-pages
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages

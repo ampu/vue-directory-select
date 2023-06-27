@@ -22,7 +22,7 @@
 import DirectoryItem from './DirectoryItem.vue'
 
 import {DirectoryNode} from '../utils/directory-utils.ts'
-import {useProp} from '../books/use-prop.ts'
+import {useProp} from '../hooks/use-prop.ts'
 
 const props = defineProps<{
   items: DirectoryNode[]

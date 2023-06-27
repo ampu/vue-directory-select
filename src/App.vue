@@ -14,7 +14,7 @@
 import MainButton from './components/MainButton.vue'
 import DirectoryPopup from './components/DirectoryPopup.vue'
 
-import {useBoolean} from './books/use-boolean.ts'
+import {useBoolean} from './hooks/use-boolean.ts'
 import {DirectoryNode} from './utils/directory-utils.ts'
 
 const [isPopupActive, activatePopup, deactivatePopup] = useBoolean(true)
